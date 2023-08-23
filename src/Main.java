@@ -12,8 +12,9 @@ public class Main {
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String lectTeclado = sc.nextLine();
         System.out.println("Introduce una palabra: ");
+
+        String lectTeclado = sc.nextLine();
         try {
             char caracter7 = caracterEn(lectTeclado, 7);
             System.out.println("El caracter 7 de la palabra " + lectTeclado + " es: "+caracter7);
